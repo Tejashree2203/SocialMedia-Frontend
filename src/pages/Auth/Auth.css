@@ -1,0 +1,81 @@
+.Auth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 4rem;
+    position: relative;
+}
+
+.icon-image{
+    width: 10rem;
+    height: 10rem;
+    margin-left: -150px;
+    margin-right: 20px;
+}
+
+.Auth>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.aleft{
+    gap:2rem;
+}
+
+.Webname > h1{
+    font-size: 3rem;
+    background-color:#2ba2e2;
+    /* background-image: var(--buttonBg); */
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+
+}
+
+.infoForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.infoInput{
+    border: none;
+    outline: none;
+    background-color: var(--inputColor);
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+}
+
+.infoForm>div{
+    display: flex;
+    gap: 1rem;
+    height: 2rem;
+    width: 90%;
+}
+
+.info-button{
+    width: 6rem;
+    height: 2rem;
+    align-self: flex-end;
+}
+
+.authForm{
+    background-color: #ebf0f6;
+    border-radius: 1rem;
+    padding: 1rem;
+    padding-right: 50px;
+}
+
+
+.authForm>div{
+width: 100%;
+align-items: center;
+justify-content: center;
+}
